@@ -31,3 +31,7 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+#keys
+gh-pages
+gh-pages.pub
