@@ -31,12 +31,9 @@ export default function Home() {
         <h1 className="text-6xl font-bold">
           Welcome to The Open Alliance
         </h1>
-        {teams.map(t => {
-          console.log('got team', t);
-          return (
-            <OpenAllianceTeam name={t.name} teamNumber={t.teamNumber} buildThreadLink={t.buildThreadLink} />
-            );
-        })}
+        {teams.map(t =>
+          <OpenAllianceTeam name={t.name} teamNumber={t.teamNumber} buildThreadLink={t.buildThreadLink} />
+        )}
 
       </main>
 
